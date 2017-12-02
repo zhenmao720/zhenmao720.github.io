@@ -300,6 +300,168 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://zhenmao720.github.io/2017/12/01/37个神经网络无法工作的原因/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Zhen MAO">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="MZ的学习小铺">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/12/01/37个神经网络无法工作的原因/" itemprop="url">37个神经网络无法工作的原因</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-01T19:03:56-05:00">
+                2017-12-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/翻译/" itemprop="url" rel="index">
+                    <span itemprop="name">翻译</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>这篇<a href="https://blog.slavv.com/37-reasons-why-your-neural-network-is-not-working-4020854bd607" target="_blank" rel="noopener">Slav Ivanov的博客</a>讲述了非常多并且实用的神经网络debug方式。在闲暇时我将其翻译成了中文，如果存在版权问题请联系我，我会立刻删除。如果翻译存在错误，也欢迎大家指正</p>
+<h2 id="应该怎么使用这份指南？"><a href="#应该怎么使用这份指南？" class="headerlink" title="应该怎么使用这份指南？"></a>应该怎么使用这份指南？</h2><p>非常多的原因都快可以导致这个问题，但是其中某些原因更加容易发生，首先可以使用以下check list去进行简单的检查：</p>
+<ul>
+<li><p>使用一个简单的已知能够工作的模型去训练手中的数据（例如使用VGG训练图像），尽可能使用标准的loss函数</p>
+</li>
+<li><p>关闭所有trick，例如正则化和增加训练数据</p>
+</li>
+<li><p>如果是模型调优或者迁移学习，再次检查数据预处理的过程，这应该跟原始模型的数据预处理方式相同</p>
+</li>
+<li><p>确保输入数据是正确的</p>
+</li>
+<li><p>首先使用较小的数据集，在该数据集上达到过拟合，然后逐渐增加更多的数据</p>
+</li>
+<li><p>开始添加之前关闭的trick，如正则化、数据增加，特定的loss函数和更加复杂的模型</p>
+</li>
+</ul>
+<p>如果以上的方式并没有解决问题，那就开始浏览下面的更加详细的步骤，确保每一项都正确<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/12/01/37个神经网络无法工作的原因/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://zhenmao720.github.io/2017/12/01/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -465,14 +627,32 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
             
 
           </nav>
